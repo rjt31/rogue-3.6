@@ -1,0 +1,52 @@
+gcc -O3    -c -o vers.o vers.c
+gcc -O3    -c -o armor.o armor.c
+armor.c:20:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+wear()
+^
+armor.c:27:2: warning: implicit declaration of function 'addmsg' is invalid in C99 [-Wimplicit-function-declaration]
+        addmsg("You are already wearing some");
+        ^
+armor.c:30:2: warning: implicit declaration of function 'endmsg' is invalid in C99 [-Wimplicit-function-declaration]
+        endmsg();
+        ^
+armor.c:32:2: error: non-void function 'wear' should return a value [-Wreturn-type]
+        return;
+        ^
+armor.c:35:2: error: non-void function 'wear' should return a value [-Wreturn-type]
+        return;
+        ^
+armor.c:39:2: warning: implicit declaration of function 'msg' is invalid in C99 [-Wimplicit-function-declaration]
+        msg("You can't wear that.");
+        ^
+armor.c:40:2: error: non-void function 'wear' should return a value [-Wreturn-type]
+        return;
+        ^
+armor.c:42:5: warning: implicit declaration of function 'waste_time' is invalid in C99 [-Wimplicit-function-declaration]
+    waste_time();
+    ^
+armor.c:57:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+take_off()
+^
+armor.c:67:2: error: non-void function 'take_off' should return a value [-Wreturn-type]
+        return;
+        ^
+armor.c:69:10: warning: implicit declaration of function 'dropcheck' is invalid in C99 [-Wimplicit-function-declaration]
+    if (!dropcheck(cur_armor))
+         ^
+armor.c:70:2: error: non-void function 'take_off' should return a value [-Wreturn-type]
+        return;
+        ^
+armor.c:76:28: warning: implicit declaration of function 'pack_char' is invalid in C99 [-Wimplicit-function-declaration]
+    msg(" wearing %c) %s", pack_char(obj), inv_name(obj, TRUE));
+                           ^
+armor.c:84:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+waste_time()
+^
+armor.c:86:5: warning: implicit declaration of function 'do_daemons' is invalid in C99 [-Wimplicit-function-declaration]
+    do_daemons(BEFORE);
+    ^
+armor.c:87:5: warning: implicit declaration of function 'do_fuses' is invalid in C99 [-Wimplicit-function-declaration]
+    do_fuses(BEFORE);
+    ^
+11 warnings and 5 errors generated.
+make: *** [armor.o] Error 1

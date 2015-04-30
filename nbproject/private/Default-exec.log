@@ -1,0 +1,72 @@
+called: /Library/Developer/CommandLineTools/usr/bin/gcc
+	/Users/Jeff/Downloads/rogue3.6.3-src
+	/Library/Developer/CommandLineTools/usr/bin/gcc
+	-O3
+	-c
+	-o
+	vers.o
+	vers.c
+
+called: /Library/Developer/CommandLineTools/usr/bin/gcc
+	/Users/Jeff/Downloads/rogue3.6.3-src
+	/Library/Developer/CommandLineTools/usr/bin/gcc
+	-O3
+	-c
+	-o
+	vers.o
+	vers.c
+
+called: /Library/Developer/CommandLineTools/usr/bin/clang
+	/Users/Jeff/Downloads/rogue3.6.3-src
+	/Library/Developer/CommandLineTools/usr/bin/clang
+	-O3
+	-c
+	-o
+	vers.o
+	vers.c
+
+called: /Library/Developer/CommandLineTools/usr/bin/clang
+	/Users/Jeff/Downloads/rogue3.6.3-src
+	/Library/Developer/CommandLineTools/usr/bin/clang
+	-O3
+	-c
+	-o
+	vers.o
+	vers.c
+
+called: /Library/Developer/CommandLineTools/usr/bin/gcc
+	/Users/Jeff/Downloads/rogue3.6.3-src
+	/Library/Developer/CommandLineTools/usr/bin/gcc
+	-O3
+	-c
+	-o
+	armor.o
+	armor.c
+
+called: /Library/Developer/CommandLineTools/usr/bin/gcc
+	/Users/Jeff/Downloads/rogue3.6.3-src
+	/Library/Developer/CommandLineTools/usr/bin/gcc
+	-O3
+	-c
+	-o
+	armor.o
+	armor.c
+
+called: /Library/Developer/CommandLineTools/usr/bin/clang
+	/Users/Jeff/Downloads/rogue3.6.3-src
+	/Library/Developer/CommandLineTools/usr/bin/clang
+	-O3
+	-c
+	-o
+	armor.o
+	armor.c
+
+called: /Library/Developer/CommandLineTools/usr/bin/clang
+	/Users/Jeff/Downloads/rogue3.6.3-src
+	/Library/Developer/CommandLineTools/usr/bin/clang
+	-O3
+	-c
+	-o
+	armor.o
+	armor.c
+
